@@ -2,7 +2,6 @@ const fs = require('fs');
 const glob = require('glob-promise');
 var tar = require('tar-fs');
 var unzip = require('unzip');
-var rp = require('request-promise')
 const { convertFile } = require('../helpers/convertFile')
 const models = require('../models')
 var http = require('http');
