@@ -1,0 +1,36 @@
+{
+  "name": "rachael-boddy-example-code",
+  "version": "1.0.0",
+  "description": "Metadata extractor from project Gutenberg titles",
+  "main": "src/index.js",
+  "dependencies": {
+    "glob-promise": "^3.4.0",
+    "http": "0.0.1-security",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "sequelize": "^5.21.12",
+    "sqlite3": "^4.2.0",
+    "tar-fs": "^2.1.0",
+    "unzip": "^0.1.11",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0",
+    "nyc": "^15.1.0",
+    "sequelize-cli": "^5.5.1",
+    "sequelize-test-helpers": "^1.2.2",
+    "sinon": "^9.0.2"
+  },
+  "scripts": {
+    "extract": "node src/index.js",
+    "test": "nyc mocha ./test --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bodd1133/rachael-boddy-example-code.git"
+  },
+  "author": "Rachael Boddy",
+  "license": "ISC",
+  "homepage": "https://github.com/bodd1133/rachael-boddy-example-code#readme"
+}
